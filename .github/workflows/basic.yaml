@@ -9,6 +9,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Step two
         run: ls -la
+      - name: Step 3
+        run: pwd
   job2:
     name: second job to run
     runs-on: windows-latest
